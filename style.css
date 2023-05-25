@@ -4,12 +4,27 @@
 
 nav {
     display: flex; 
+    gap: 300px;
 }
 
 .links-container {
     display: flex; 
 }
 
+.links-list {
+    display: flex;
+    flex-direction: row; 
+}
+
 .links-list > li > button{ 
     background-color: purple; 
+    color: white; 
+}
+
+ul {
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
 }
