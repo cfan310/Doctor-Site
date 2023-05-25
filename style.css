@@ -1,0 +1,15 @@
+* {
+    border: solid 2px red; 
+}
+
+nav {
+    display: flex; 
+}
+
+.links-container {
+    display: flex; 
+}
+
+.links-list > li > button{ 
+    background-color: purple; 
+}
